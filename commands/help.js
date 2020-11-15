@@ -32,6 +32,7 @@ module.exports = {
             .setTitle("Command: "+command.info.name+" info")
             .setColor("YELLOW")
             .setDescription(`
+            .setFooter("Commands by 𝒮𝓂𝑜𝓀𝒾𝓃𝑔𝒲𝒾𝓃𝓉𝑒𝓇#1425");
 Name: ${command.info.name}
 Description: ${command.info.description}
 Usage: \`\`${client.config.prefix}${command.info.name} ${command.info.usage}\`\`
